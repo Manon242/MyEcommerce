@@ -1,4 +1,5 @@
-const API_BASE_URL = "https://my-ecommerce-backend.onrender.com";
+const API_BASE_URL = "https://my-ecommerce-backend.onrender.com/products";
+
 // Change this when backend is deployed
 
 function addProduct() {
@@ -70,4 +71,5 @@ function showError(err) {
     document.getElementById("productContainer").innerHTML =
         `<p style="color:red">Error occurred</p>`;
 }
+
 
